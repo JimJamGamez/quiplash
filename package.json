@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JimJamGamez/quiplash.git"
+    "url": "git+https://github.com/gdomaradzki/simple-car-game.git"
   },
   "keywords": [
     "Node.js",
@@ -20,9 +20,9 @@
   "author": "Gustavo Domaradzki",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/JimJamGamez/quiplash/issues"
+    "url": "https://github.com/gdomaradzki/simple-car-game/issues"
   },
-  "homepage": "https://github.com/JimJamGamez/quiplash#readme",
+  "homepage": "https://github.com/gdomaradzki/simple-car-game#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",

@@ -13,6 +13,7 @@ io.on('connection', socket => {
   // When a player connects
   socket.on('new-player', state => {
     console.log('New player joined with state:', state)
+	console.log('wtf')
     players[socket.id] = state
     // Emit the update-players method in the client side
     io.emit('update-players', players)
@@ -20,6 +21,7 @@ io.on('connection', socket => {
 
   socket.on('disconnect', state => {
     delete players[socket.id]
+	
     io.emit('update-players', players)
   })
 
